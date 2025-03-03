@@ -1,7 +1,7 @@
 const data = {
   headerMenus: [
     {
-      name: 'Today&#39;s Deal',
+      name: `Today's Deal`,
       href: '/search?tag=todays-deal',
     },
     {
@@ -31,6 +31,29 @@ const data = {
     {
       name: 'Help',
       href: '/page/help',
+    },
+  ],
+  carousels: [
+    {
+      title: 'Most Popular Shoes For Sale',
+      buttonCaption: 'Shop Now',
+      image: '/images/banner3.jpg',
+      url: '/search?category=Shoes',
+      isPublished: true,
+    },
+    {
+      title: 'Best Seller in T-Shirts',
+      buttonCaption: 'Shop Now',
+      image: '/images/banner1.jpg',
+      url: '/search?category=T-Shirts',
+      isPublished: true,
+    },
+    {
+      title: 'Best Deals on Wrist Watches',
+      buttonCaption: 'Shop Now',
+      image: '/images/banner2.jpg',
+      url: '/search?category=Wrist Watches',
+      isPublished: true,
     },
   ],
 }
